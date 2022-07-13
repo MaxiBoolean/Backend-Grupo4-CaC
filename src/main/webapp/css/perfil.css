@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* ****************** HEADER ****************** */
+header {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.containerLogo {
+  width: 10%;
+}
+.containerLogo > img {
+  width: 100%;
+}
+header li {
+  color: black;
+}
+.login-carrito {
+  color: black;
+}
+
+
+/* ****************** IMAGEN PERFIL ****************** */
+.containerImg {
+  width: 30%;
+  align-self: center;
+  box-shadow: 0px 0px 20px #dd448a;
+  border-radius: 50%;
+  padding: 1rem;
+}
+.containerImg > img {
+  width: 100%;
+}
+
+/* ****************** BOTONERA DE OPCIONES ****************** */
+#containerBotones > div > li {
+  width: 70%;
+}
+ol {
+  margin-top: 1rem;
+  padding: 0;
+}
+.item {
+  color: #2185a6;
+  font-weight: bold;
+  padding: 0.5rem 0;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+}
+li:hover {
+  color: #dd448a;
+}
+
+.item:hover::after {
+  content: url("../images/Icono-huellamini.png");
+  margin-left: 5px;
+}
+.item:hover::before {
+  content: url("../images/Icono-huellamini.png");
+  margin-right: 5px;
+}
+
+/* ****************** CONTAINER DE DATOS ****************** */
+h3 {
+  color: #dd448a;
+  font-weight: bold;
+}
+
+#containerDatos > div {
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#containerDatos > div > div > span {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #2185a6;
+}
+#containerDatos > div > div > p {
+  font-size: 1.2rem;
+}
+#containerDatos > div > input {
+  width: 50%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #dd448a;
+  padding: 0.2rem;
+  color: #2185a6;
+  font-size: 1.1rem;
+}
+button {
+  border: 1px solid #dd448a;
+  width: 20%;
+  border-radius: 10px;
+  background-color: white;
+  color: #2185a6;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+button:hover {
+  color: #dd448a;
+  border: 1px solid #2185a6;
+}

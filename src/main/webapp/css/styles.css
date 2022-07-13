@@ -1,0 +1,95 @@
+@import "login.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ****************** HEADER ****************** */
+header {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.containerLogo {
+  width: 10%;
+}
+.containerLogo > img {
+  width: 100%;
+}
+header li {
+  color: black;
+}
+/* ****************** COMIENZA MAIN ****************** */
+p {
+  color: #000000;
+  font-size:large;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.carousel-control-prev-icon {
+  background-color: black;
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+
+
+h5 {
+  color: white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+text-decoration: underline;
+
+}
+.login-carrito {
+  color: black;
+}
+.bi-telephone {
+  font-weight: 300;
+}
+
+
+/* ****************** CARDS ****************** */
+.card {
+  align-items: center;
+  justify-content: space-between;
+}
+.card-text {
+  font-size: 0.9rem;
+}
+.card > img {
+  height: 20rem;
+}
+
+.cardArticulos {
+  border: 2px solid #dd448a;
+  box-shadow: 0px 0px 5px #dd448a;
+}
+.cardArticulos .card-body {
+  height: 10rem;
+}
+.cardArticulos > div > button {
+  border: 1px solid #dd448a;
+  width: 70%;
+  border-radius: 10px;
+  background-color: white;
+  color: #2185a6;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+.cardArticulos > div > button:hover {
+  background-color: #dd448a;
+  color: white;
+  border: 1px solid #2185a6;
+}
+.cardArticulos h5 {
+  color: #2185a6;
+  font-weight: bold;
+}
+.cardArticulos .textPrecio {
+  color: green;
+  font-size: 1rem;
+  font-weight: 600;
+}
