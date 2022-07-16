@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+/* ****************** HEADER ****************** */
+header {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .containerLogo {
+    width: 10%;
+  }
+  .containerLogo > img {
+    width: 100%;
+  }
+  header li {
+    color: black;
+  }
+  .login-carrito {
+    color: black;
+  }
+
+  .li.navitem{
+    font-weight: 400;
+  }
+  .bi-telephone {
+    font-weight: 300;
+  }
+/* ****************** MAIN ****************** */
+
+.containerRegistro{
+    height: 100vh;
+    background-color: #2185a6;
+}
+.containerRegistro:first-child{
+    padding: 2rem; 
+  }
+#title{
+    font-family: 'Arial';
+  
+}
+.container-fluid{
+  
+  background-color: #2185a6;
+  padding-bottom: 2rem;
+  padding-left: 6rem;
+}
+.btn-dark{
+    font-family: 'PT Sans', sans-serif;
+}
+.text-uppercase{
+  font-family: 'PT Sans', sans-serif;
+  color: aliceblue;
+  text-decoration:overline;
+
+}

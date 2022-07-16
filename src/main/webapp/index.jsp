@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <!--LOGOS BOOTSTRAP-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <title>Sweetiest Pet Shop</title>
+    <title>Sweetiest Pet Shop - Home</title>
     <link rel="shortcut icon" href="favicon.png">
 </head>
 <body>

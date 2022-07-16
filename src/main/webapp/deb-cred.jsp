@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/carrito.css">
     <!--LOGOS BOOTSTRAP-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <title>Tarjetas Debito - Credito</title>
+    <title>Sweetiest Pet Shop - Tarjetas</title>
 </head>
 <body>
 	<!-- Header -->
@@ -23,20 +23,20 @@
       <main>
         <section class="container flex text-center">
             <div class="columna2 margen">
-                <h2 class="text-izq">¿Cómo querés pagar?</h2>
+                <h2 class="text-izq">ï¿½Cï¿½mo querï¿½s pagar?</h2>
                 <br>
-               <h6 class="izq-text">Con débito o crédito</h6>
+               <h6 class="izq-text">Con dï¿½bito o crï¿½dito</h6>
                <br>
                <div class="form-check">
                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                   <label class="form-check-label izq-text" for="exampleRadios1">Tarjeta de Débito</label>
+                   <label class="form-check-label izq-text" for="exampleRadios1">Tarjeta de Dï¿½bito</label>
                </div>
                <div class="form-check">
                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                   <label class="form-check-label izq-text" for="exampleRadios2">Tarjeta de Crédito</label>
+                   <label class="form-check-label izq-text" for="exampleRadios2">Tarjeta de Crï¿½dito</label>
                 </div>  
                 <br>       
-                <a href="./pagar.html" class="btn-precio" id="continuar2">Continuar</a>  
+                <a href="./pagar.jsp" class="btn-precio" id="continuar2">Continuar</a>  
             </div>          
            
         </section>
