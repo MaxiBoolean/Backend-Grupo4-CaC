@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/carrito.css">
     <!--LOGOS BOOTSTRAP-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <title>Document</title>
+    <title>Sweetiest Pet Shop - Carrito</title>
 </head>
 <body>
 
@@ -31,11 +31,11 @@
               <hr>
 
               <div class="flex envioCapital">
-                <p>Envío en capital $450</p>
+                <p>Envï¿½o en capital $450</p>
             </div>
             <br>
             <div class="flex envioCapital" id="totalEnvio">
-                <p><b>Total con envío $</b><span id="total"></span></p>
+                <p><b>Total con envï¿½o $</b><span id="total"></span></p>
             </div>
             <hr>
               <div class="flex botonCompra">

@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="./css/styles.css">
         <!--LOGOS BOOTSTRAP-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-        <title>Articulos</title>
+        <title>Sweetiest Pet Shop - Articulos</title>
 </head>
 <body>
  <!-- ************************* NAVBAR *************************--> 
@@ -29,7 +29,7 @@
 
       <nav class="col-12 col-md-2  bg-info sidebar">
           <div class="sidebar-sticky">
-              <h2 class="text-light title-sidebar">Filtrar artículos</h2>
+              <h2 class="text-light title-sidebar">Filtrar artï¿½culos</h2>
               <ul class="nav flex-column">
                 <li class="nav-item">
                       <a class="nav-link text-light" href="#">Perros</a>

@@ -15,7 +15,7 @@
 	integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
 	crossorigin="anonymous">
 <!-- CSS PROPIO -->
-<link rel="stylesheet" href="./css/login.css">
+<link rel="stylesheet" href="./css/registro.css">
 <!--LOGOS BOOTSTRAP-->
 <link rel="stylesheet"
 	href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
@@ -37,7 +37,7 @@
 					<div class="col-md-5">
 						<form role="form" method="post" action="register">
 							<fieldset>
-								<p class="text-uppercase pull-center">Registrarse:</p>
+								<p class="text-uppercase pull-center">Completa tus datos:</p>
 								<div class="form-group">
 									<input type="text" name="dni" id="username"
 										class="form-control input-lg" placeholder="DNI">
@@ -81,8 +81,11 @@
 								<div>
 									<div class="form-group form-button">
 										<input type="submit" name="signin" id="signin"
-											class="form-submit" value="Log in" />
+											class="btn btn-dark" value="Log in" />
 									</div>
+									<button type="button" class="btn btn-light">
+										<a href="login.jsp">�Ya ten�s una cuenta?</a>
+									</button>
 								</div>
 							</fieldset>
 						</form>
