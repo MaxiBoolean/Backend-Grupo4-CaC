@@ -30,14 +30,18 @@
 
       <nav class="col-12 col-md-2  bg-info sidebar">
           <div class="sidebar-sticky">
-              <h2 class="text-light title-sidebar">Filtrar articulos</h2>
+              <h2 class="text-light title-sidebar">Filtrar artículos</h2>
+                                             
               <ul class="nav flex-column">
+              <li class="nav-item">
+                     <a class="nav-link text-light" id="todos" href="#">Ver todos nuestros artículos</a>
+                  </li>
                 <li class="nav-item">
-                      <a class="nav-link text-light" href="#">Perros</a>
+                      <a class="nav-link text-light" id="perros" href="#">Perros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Gatos</a>
-                  </li>
+                    <a class="nav-link text-light" id="cats" href="#">Gatos</a>
+                  </li>                 
               </ul>
           </div>        
       </nav>
