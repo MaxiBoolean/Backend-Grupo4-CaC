@@ -48,7 +48,6 @@ main{
     padding: 10px;
     color: #ffffff;
     border-radius: 5px;
-    margin-bottom: 10px;
     font-weight: 700;
     font-size: 25px;
     width: 25%;
@@ -80,7 +79,6 @@ main{
     background:rgb(100, 100, 100);
     text-decoration: none;
     color: #ffffff;
-    margin-left: 50px;
 }
 #comprar:hover{
     background: rgb(126, 126, 126);
@@ -94,9 +92,7 @@ p{
 #totalEnvio{
     font-size:x-large;
 }
-#continuar{
-    margin-right: 50px;
-}
+
 #continuar2{
     margin-left: 550px;
 }
@@ -125,4 +121,9 @@ p{
     margin-left: 5px;
     width: 140px;
     text-align: center;
+}
+.btn-danger{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
 }

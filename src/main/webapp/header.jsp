@@ -1,3 +1,5 @@
+
+
 <!-- ************************* NAVBAR *************************-->  
   <header class="px-4 sticky-top">
     
@@ -30,7 +32,7 @@
       <div class="text-dark">
           <a href="login.jsp" class="login-carrito"><i class="bi bi-person"></i></a>
           <a href="./carrito.jsp" class="login-carrito">
-            <span class="top-0 start-100 translate-middle badge rounded-pill bg-danger">3 <i class="bi bi-cart"></i></span>
+            <span id="num_art" class="top-0 start-100 translate-middle badge rounded-pill bg-danger">3 </span>
           </a>
       </div> 
       
@@ -50,3 +52,4 @@
     </div>  
   </header>
   <!-- ************************* FIN DE NAVBAR *************************--> 
+  <script src="./js/header.js"></script>

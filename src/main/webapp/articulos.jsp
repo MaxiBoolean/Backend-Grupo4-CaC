@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="./css/styles.css">
         <!--LOGOS BOOTSTRAP-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+        <link rel="shortcut icon" type="image/png" href="images/favi.png">
         <title>Sweetiest Pet Shop - Articulos</title>
 </head>
 <body>
@@ -29,7 +30,7 @@
 
       <nav class="col-12 col-md-2  bg-info sidebar">
           <div class="sidebar-sticky">
-              <h2 class="text-light title-sidebar">Filtrar art�culos</h2>
+              <h2 class="text-light title-sidebar">Filtrar articulos</h2>
               <ul class="nav flex-column">
                 <li class="nav-item">
                       <a class="nav-link text-light" href="#">Perros</a>

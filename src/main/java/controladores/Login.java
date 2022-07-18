@@ -33,7 +33,7 @@ public class Login extends HttpServlet {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sesion?useSSL=false", "root", "root");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sesion?allowPublicKeyRetrieval=true&useSSL=false", "root", "root");
 			final String QUERY = "select * from usuarios where email = ? and pass = ?";
 			PreparedStatement ps = con.prepareStatement(QUERY);
 			ps.setString(1, uname);

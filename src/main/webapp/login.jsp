@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,6 +19,7 @@
 <!--LOGOS BOOTSTRAP-->
 <link rel="stylesheet"
 	href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+	<link rel="shortcut icon" type="image/png" href="images/favi.png">
 <title>Sweetiest Pet Shop - Ingreso</title>
 
 
@@ -47,14 +50,14 @@
 									<p class="text-danger mb-2 d-none" id="alertEmail"></p>
 								</div>
 								<div class="form-group">
-									<input type="password" name="password" id="contraseña"
-										class="form-control input-lg" placeholder="Contraseña">
+									<input type="password" name="password" id="contraseÃ±a"
+										class="form-control input-lg" placeholder="ContraseÃ±a">
 									<p class="text-danger mb-2 d-none" id="alertPass"></p>
 								</div>
 
 								<div class="form-check">
 									<label class="form-check-label"> <input type="checkbox"
-										class="form-check-input"> Recordar mi contraseña
+										class="form-check-input"> Recordar mi contraseÃ±a
 									</label>
 								</div>
 								<hr>
@@ -64,7 +67,7 @@
 											class="form-submit" value="Ingresar" />
 									</div>
 									<button type="button" class="btn btn-light">
-										<a href="registro.jsp">¿No tenés una cuenta?</a>
+										<a href="registro.jsp">Â¿No tenÃ©s una cuenta?</a>
 									</button>
 								</div>
 							</fieldset>

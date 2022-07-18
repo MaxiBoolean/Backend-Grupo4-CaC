@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,6 +19,7 @@
 <!--LOGOS BOOTSTRAP-->
 <link rel="stylesheet"
 	href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+	<link rel="shortcut icon" type="image/png" href="images/favi.png">
 <title>Sweetiest Pet Shop - Perfil</title>
 </head>
 <body>
@@ -35,7 +36,7 @@
 					</div>
 				</div>
 				<div class="col-md-8 d-flex align-items-center">
-					<h3>¡Bienvenido Ricardito!</h3>
+					<h3>ï¿½Bienvenido Ricardito!</h3>
 				</div>
 			</div>
 
@@ -53,7 +54,7 @@
 							<li id="btnUsuario" class="item" type="button">Modificar
 								usuario</li>
 							<li id="btnPassword" class="item" type="button">Modificar
-								contraseña</li>
+								contraseï¿½a</li>
 						</ol>
 
 					</div>

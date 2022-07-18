@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,6 +19,7 @@
 <!--LOGOS BOOTSTRAP-->
 <link rel="stylesheet"
 	href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+	<link rel="shortcut icon" type="image/png" href="images/favi.png">
 <title>Sweetiest Pet Shop - Pagar</title>
 </head>
 <body>
@@ -32,10 +33,10 @@
 				<h2>Ingrese los datos</h2>
 				<br>
 				<div class="mb-3">
-					<label for="formGroupExampleInput" class="form-label">Número
+					<label for="formGroupExampleInput" class="form-label">NÃºmero
 						de tarjeta</label> <input type="text" class="form-control"
 						id="formGroupExampleInput"
-						placeholder="Ingrese el número de tarjeta">
+						placeholder="Ingrese el nÃºmero de tarjeta">
 				</div>
 				<div class="mb-3">
 					<label for="formGroupExampleInput2" class="form-label">Nombre
@@ -44,8 +45,8 @@
 						placeholder="Ingrese nombre y apellido"> <br>
 					<div class="flex datosTarjeta">
 						<label for="formGroupExampleInput2" class="form-label">Fecha
-							de expiración</label> <label for="formGroupExampleInput2"
-							class="form-label" id="seguridad">Código de seguridad</label>
+							de expiraciÃ³n</label> <label for="formGroupExampleInput2"
+							class="form-label" id="seguridad">CÃ³digo de seguridad</label>
 					</div>
 					<div class="row">
 						<div class="col">
@@ -55,7 +56,7 @@
 						</div>
 						<div class="col">
 							<input type="text" class="form-control"
-								placeholder="Últimos 3 números en el dorso de su tarjeta"
+								placeholder="Ãšltimos 3 nÃºmeros en el dorso de su tarjeta"
 								aria-label="Last name">
 						</div>
 					</div>
@@ -63,9 +64,9 @@
 					<div class="mb-3">
 						<label for="formGroupExampleInput" class="form-label">DNI
 							del titular de la tarjeta</label> <input type="text" class="form-control"
-							id="formGroupExampleInput" placeholder="Ingrese número de DNI">
+							id="formGroupExampleInput" placeholder="Ingrese nÃºmero de DNI">
 					</div>
-					<br> <a href="index.html" class="btn-precio" id="pagar">Pagar</a>
+					<br> <a href="index.jsp" class="btn-precio" id="pagar">Pagar</a>
 				</div>
 			</div>
 		</section>

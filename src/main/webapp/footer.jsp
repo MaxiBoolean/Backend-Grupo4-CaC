@@ -1,18 +1,18 @@
-	<footer class="container-fluid mx-auto px-0 row pt-1 d-flex justify-content-center" style="background-color:  #2185a6 ;">
+	<footer class="container-fluid mx-auto px-0 row pt-1 pb-1 d-flex justify-content-center" style="background-color:  #2185a6 ;">
       <!-- Presentacion -->
       <div class="row col-12 d-flex justify-content-center align-items-center p-0">
         <h2 class="col-auto">Pet</h2>
-        <img class="rounded-circle" src="images\Icono_Empresa.jpg" alt="" style="height: 100px; width: auto;">
+        <img class="rounded-circle" src="images\Icono_Empresa.jpg" alt="" style="height: 80px; width: auto;">
         <h2 class="col-auto">Shop</h2>
       </div>
-      <div class="col-12 px-5 py-3 text-center">
-        <h4>
-         Seguínos en nuestras redes sociales o visitanos en nuestro local
-        </h4>
+      <div class="col-12 py-1 text-center">
+        <h5 class="m-0">
+         Seguinos en nuestras redes sociales o visitanos en nuestro local
+        </h5>
       </div>
       <!-- Contactanos -->
       <div class="col-6 row align-content-around justify-content-center">
-        <h5 class="text-center w-100">Contactános</h5>
+        <h5 class="text-center w-100">ContactÃ¡nos</h5>
         <div class="row col-12 align-items-center justify-content-center my-3">
           <a class="col-2 text-center" href="">
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="40" fill=" #d1aeca "
@@ -33,16 +33,15 @@
         </div>     
       </div>
       <!-- Veni a visitarnos -->
-      <div class="col-4">
-        <h5 class="text-center">Veni a visitarnos</h5>
-        <br>
-        <div style="width: 100%">
-          <iframe width="100%" height="200px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Av%20La%20Plata%20820+(Codo%20a%20Codo)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" style="width: 30wv; height: 25vh;"></iframe>
+      <div class="col-4 w-100">
+        <h5 class="text-center ">Veni a visitarnos</h5>
+        <div>
+          <iframe  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=es&amp;q=Av%20La%20Plata%20820+(Codo%20a%20Codo)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" style="width: 100%; height: 20vh;"></iframe>
         </div>              
       </div>
-      <div class="mx-auto mt-4 text-center">
-        <p >
-          Copyright © 2022 Codo a Codo. All Rights Reserved
+      <div class="mx-auto mt-1 text-center">
+        <p class="m-0">
+          Copyright ï¿½ 2022 Codo a Codo. All Rights Reserved
           <img src="images\frame.png" alt="" style="height: 40px; width: auto;">
         </p>
         

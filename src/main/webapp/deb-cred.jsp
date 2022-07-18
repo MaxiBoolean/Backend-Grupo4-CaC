@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/carrito.css">
     <!--LOGOS BOOTSTRAP-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="shortcut icon" type="image/png" href="images/favi.png">
     <title>Sweetiest Pet Shop - Tarjetas</title>
 </head>
 <body>
@@ -23,17 +24,17 @@
       <main>
         <section class="container flex text-center">
             <div class="columna2 margen">
-                <h2 class="text-izq">�C�mo quer�s pagar?</h2>
+                <h2 class="text-izq">¿Cómo querés pagar?</h2>
                 <br>
-               <h6 class="izq-text">Con d�bito o cr�dito</h6>
+               <h6 class="izq-text">Con débito o crédito</h6>
                <br>
                <div class="form-check">
                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                   <label class="form-check-label izq-text" for="exampleRadios1">Tarjeta de D�bito</label>
+                   <label class="form-check-label izq-text" for="exampleRadios1">Tarjeta de débito</label>
                </div>
                <div class="form-check">
                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                   <label class="form-check-label izq-text" for="exampleRadios2">Tarjeta de Cr�dito</label>
+                   <label class="form-check-label izq-text" for="exampleRadios2">Tarjeta de crédito</label>
                 </div>  
                 <br>       
                 <a href="./pagar.jsp" class="btn-precio" id="continuar2">Continuar</a>  

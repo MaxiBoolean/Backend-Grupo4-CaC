@@ -5,48 +5,4 @@
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
-   <description></description>
-  <display-name>HomeController</display-name>
-  <servlet>
-    <servlet-name>HomeController</servlet-name>
-    <servlet-class>controladores.HomeController</servlet-class>
-  </servlet>
-  <servlet>
-    <servlet-name>LoginController</servlet-name>
-    <servlet-class>controladores.LoginController</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>HomeController</servlet-name>
-    <url-pattern>/homes</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>Registration</display-name>
-    <servlet-name>Registration</servlet-name>
-    <servlet-class>controladores.Registration</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>Registration</servlet-name>
-    <url-pattern>/Registration</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>Login</display-name>
-    <servlet-name>Login</servlet-name>
-    <servlet-class>controladores.Login</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>Login</servlet-name>
-    <url-pattern>/Login</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>Logout</display-name>
-    <servlet-name>Logout</servlet-name>
-    <servlet-class>controladores.Logout</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>Logout</servlet-name>
-    <url-pattern>/Logout</url-pattern>
-  </servlet-mapping>
 </web-app>

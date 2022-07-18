@@ -19,6 +19,7 @@
 <!--LOGOS BOOTSTRAP-->
 <link rel="stylesheet"
 	href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+	<link rel="shortcut icon" type="image/png" href="images/favi.png">
 <title>Sweetiest Pet Shop - Registro</title>
 
 
@@ -81,10 +82,10 @@
 								<div>
 									<div class="form-group form-button">
 										<input type="submit" name="signin" id="signin"
-											class="btn btn-dark" value="Log in" />
+											class="form-submit btn btn-dark" value="Registrar" />
 									</div>
 									<button type="button" class="btn btn-light">
-										<a href="login.jsp">�Ya ten�s una cuenta?</a>
+										<a href="login.jsp">¿Ya tenés una cuenta?</a>
 									</button>
 								</div>
 							</fieldset>
@@ -94,12 +95,9 @@
 			</div>
 		</div>
 	</main>
-
-	<!-- JS PROPIO -->
-	<script src="js/perfil.js"></script>
-	<script src="js/login.js"></script>
-
-
+	
+	<!-- Footer -->
+    <%@include file="footer.jsp" %>
 
 	<!-- LINKS DE JS PARA BOOTSTRAP -->
 	<script

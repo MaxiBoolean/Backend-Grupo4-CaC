@@ -1,11 +1,11 @@
 let carrito = [];
-
+const importeTotal= document.getElementById("total");
 if (localStorage.getItem("carrito")) {
   carrito = JSON.parse(localStorage.getItem("carrito"));
 }
 const generarCards = (productos) => {    
     let cards = document.getElementById("carrito");
-    let importeTotal= document.getElementById("total");
+    
     let totalCar = 0;
     
     productos.forEach( producto => {
@@ -41,13 +41,24 @@ const generarCards = (productos) => {
     });
     let totalConEnvio = totalCar + 450;
     localStorage.setItem("totalCarrito", totalCar);
-
-    let span = document.createElement("span");
-    span.innerHTML =  `
-    <span>${totalConEnvio}</span>
-    `;    
-    importeTotal.appendChild(span);    
+	
+	importeTotal.innerHTML = `${totalConEnvio}`;
+//    let span = document.createElement("span");
+//    span.innerHTML =  `
+//    <span>${totalConEnvio}</span>
+//    `;    
+//    importeTotal.appendChild(span);    
 }
 
+// BOTON PARA LIMPIAR CARRITO
+let limpiar = document.getElementById("limpiar");
+limpiar.addEventListener("click", (e) => {
+	e.preventDefault();
+ 	localStorage.clear();
+ 	let limpio = document.getElementById("carrito");
+ 	limpio.innerHTML= `<div> Carrito vaciado</div>`;
+	num_art.innerHTML = `0 <i class="bi bi-cart"></i>`;
+	importeTotal.innerHTML = 450;
+})
 
 generarCards(carrito);

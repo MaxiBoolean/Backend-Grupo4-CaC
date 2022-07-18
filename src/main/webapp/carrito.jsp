@@ -1,7 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
  <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/carrito.css">
     <!--LOGOS BOOTSTRAP-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="shortcut icon" type="image/png" href="images/favi.png">
     <title>Sweetiest Pet Shop - Carrito</title>
 </head>
 <body>
@@ -31,14 +32,15 @@
               <hr>
 
               <div class="flex envioCapital">
-                <p>Env�o en capital $450</p>
+                <p>Envío en capital $450</p>
             </div>
             <br>
             <div class="flex envioCapital" id="totalEnvio">
-                <p><b>Total con env�o $</b><span id="total"></span></p>
+                <p><b>Total con envío $</b><span id="total"></span></p>
             </div>
             <hr>
               <div class="flex botonCompra">
+              	  <a class="btn btn-danger" id="limpiar" >Limpiar carrito</a>
                   <a href="./articulos.jsp" class="btn-precio" id="comprar">Seguir comprando</a>
                   <a href="./deb-cred.jsp" class="btn-precio" id="continuar">Comprar</a>
               </div>
